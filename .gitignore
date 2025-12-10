@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Virtual Environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+
+# Images
+input_images/**/*.jpg
+input_images/**/*.jpeg
+input_images/**/*.png
+output_images/**/*.jpg
+output_images/**/*.jpeg
+output_images/**/*.png
+
+# Keep directory structure
+!input_images/person/.gitkeep
+!input_images/clothing/.gitkeep
+!output_images/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
